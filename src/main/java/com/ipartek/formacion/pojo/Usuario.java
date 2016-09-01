@@ -53,7 +53,7 @@ public class Usuario {
 	}
 	
 	//funciones o metodos
-	@Override
+	@Override()
 	public String toString() {
 		return "Usuario [id=" + id + ", nombre=" + nombre + ", password=" + password + ", email=" + email + "]";
 	}
